@@ -5,7 +5,10 @@ public class Savings extends Account {
 	
 	
 	// constructor to initialize savings account properties
-		
+		public Savings(String name) {
+			super(name);
+			System.out.println("NEW SAVINGS ACCOUNT");
+		}
 		
 	// list any methods specific to the savings account
 	
